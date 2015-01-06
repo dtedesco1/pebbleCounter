@@ -1,6 +1,3 @@
-pebbleCounter
-=============
-
 var count = parseInt(localStorage.getItem('count')) || 0;
 
 simply.on('singleClick', function(e) {
